@@ -14,9 +14,9 @@ import sqlite3
 database = sqlite3.connect('data.db')
 
 app = Client(
-    "5008830842",
-    api_id=12310715,
-    api_hash="c5209ec201f9b597358b82f9bdc4d544"
+    "--bot id--",
+    api_id="--api_id--",
+    api_hash="--api_hash--"
 )
 
 print('Sucsess!')
@@ -24,9 +24,9 @@ global loo
 global admin
 global ban_list
 
-ban_list=['<code>1992584077</code> @KhojiakbarAbdulboriyev','<code>2064716808</code> @None']
+ban_list=['']
 loo=[]
-admin=834592754 
+admin='--admin_id--' 
 async def progress(current, total,ids,message,ans):
 	prog = f"{current * 100 / total:.1f}"
 	count=int(prog[:prog.index('.')])
